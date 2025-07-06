@@ -29,7 +29,7 @@ def task1():
             print(f"временная зона: {timezone}")
             print()
 
-        # Part c: Calculate delta
+
         server_time = timestamp
         local_time_after = time.time()
         delta = (local_time_before + local_time_after) / 2 - server_time
